@@ -12,7 +12,7 @@ requests.utils.DEFAULT_CA_BUNDLE_PATH = join(abspath('.'), 'cacert.pem')
 if __name__ == "__main__":
 
     #leancloud.init("9k55DgHBy3vlUcADfgsuOFGb-gzGzoHsz", "AkNIdMmXRftH2jmCkouYlaiW")
-
+    print "Starting ..."
     capture()
     e = identify()
 
